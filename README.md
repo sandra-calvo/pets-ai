@@ -1,6 +1,23 @@
 # pets-ai
 Mimmitkoodaa 2019 Pets &amp; AI workshop
 
+# IBM Cloud :cloud: and Smart Homes:house_with_garden:
+## Mimmitkoodaa workshop guide 
+
+In this guide:
+  - [Introduction](#introduction)
+  - [IoT devices](#iot-devices): Thingsee IoT sensors
+  - [PHASE 1](#phase-1): Create a web application
+  - [PHASE 2](#phase-2): Visualize your data
+  - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
+  - [PHASE 4](#phase-4): Connect with external APIs using Weather Insights
+
+  
+  
+  #### Prerequisites
+- IBM Cloud account
+  - Create a free account www.bluemix.net
+
 # MACHINE LEARNING WITH SOUND
 
 In this lab, you will learn how to gather data, which is an important task for generating machine learning models.
@@ -70,17 +87,38 @@ If you created Watson Studio projects before, you might see different images tha
 
 Go to the IBM Watson page and click Log In to log in to IBM Watson Studio with your IBM ID and password. Then, scroll down to the Watson Services section.
 
+<img src="/images/mach_learn_lab2_step1_2.png" width="100%" height="100%">
+
 - Click Add service and then Add to select Machine Learning.
+
+<img src="/images/mach_learn_lab2_step1_3.png" width="100%" height="100%">
 
 - Verify that you have Watson Studio properly configured by opening your Studio profile.
 
+<img src="/images/mach_learn_lab2_step1_4.png" width="100%" height="100%">
+
 - Click the Apps tab. Then, check whether you have a Watson Studio application listed. If this is your first machine learning project, you will not see Watson Studio listed. If you don't have an application in the list, click Add other apps to add Watson Studio.
 
+<img src="/images/mach_learn_lab2_step1_5.png" width="100%" height="100%">
+
 - Go back to the Studio home page and click New Project. Select Data Science and give the project a name and description.
+
+<img src="/images/mach_learn_lab2_step1_6.png" width="100%" height="100%">
 
 - Make sure that the Storage field is populated with cloud-object-storage credentials. You might need to create IBM Cloud Object Storage and set your region appropriately for the credentials to appear on the Watson Studio project creation page.
 
 You must use IBM Cloud Object Storage for reading input (such as training data) and for storing results, such as log files.
+
+If your Storage field is showing as unpopulated, click Cloud Object Storage.
+
+Click Add to add Cloud Object Storage for Watson Studio.
+
+<img src="/images/mach_learn_lab2_step1_7.png" width="100%" height="100%">
+
+You might need to go back to the previous step to associate the cloud object storage with your data science project.
+
+When you're done creating the project, click Create.
+
 
 
 ## Create a machine learning model
