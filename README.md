@@ -3,6 +3,16 @@ Mimmitkoodaa 2019 Pets &amp; AI workshop
 
 # MACHINE LEARNING WITH SOUND
 
+In this lab, you will learn how to gather data, which is an important task for generating machine learning models.
+
+During the machine learning process, data is analyzed and compared to determine correlations and patterns. Without data, you cannot generate a machine learning model, and the data needs to be comparable.
+
+In the first three labs, you will create a prediction model that is based on the sounds of cats and dogs. During training, the model must be able to compare the audio files that form the training data to determine how to identify a dog barking and a cat purring.
+
+This lab shows you how the data set that is used to create the Cats and Dogs Sounds prediction model is created. You can follow the instructions to create the data and see how the data was built. However, this is not mandatory for the course because the data set that is created during this lab is available on GitHub, which you can use in Lab 2.
+
+Be sure you've installed the prerequisite software and set up accounts that are required for this course. You will need to sign in to Kaggle to download audio files.
+
 ## Gather and prepare data 
 
 - Clone the animal sounds repository:
