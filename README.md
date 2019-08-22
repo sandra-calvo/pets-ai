@@ -1,4 +1,5 @@
-# IBM Cloud :cloud: Pets & AI :robot: :heart: :dog: & :cat:
+# IBM Cloud :cloud: Pets & AI 
+:robot: :heart: :dog: & :cat:
 ## Mimmitkoodaa workshop guide 
 
 In this guide:
