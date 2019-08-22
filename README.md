@@ -1,4 +1,4 @@
-# IBM Cloud :cloud: Pets & AI :dog: :cat:
+# IBM Cloud :cloud: Pets & AI :robot: :heart: :dog: & :cat:
 ## Mimmitkoodaa workshop guide 
 
 In this guide:
@@ -10,7 +10,7 @@ In this guide:
 
   #### Prerequisites
 - IBM Cloud account
-  - Create a free account www.bluemix.net
+  - Create a free account https://cloud.ibm.com
   
 # INTRODUCTION: MACHINE LEARNING WITH SOUND
 
@@ -21,6 +21,57 @@ In the first three labs, you will create a prediction model that is based on the
 This lab shows you how the data set that is used to create the Cats and Dogs Sounds prediction model is created. You can follow the instructions to create the data and see how the data was built. However, this is not mandatory for the course because the data set that is created during this lab is available on GitHub, which you can use in Lab 2.
 
 # PHASE 1
+
+## Set up Watson Studio 
+
+In a browser navigate to https://cloud.ibm.com/ Select 'LOG IN' with your IBM id (your email). After login you should see your IBM Cloud dashboard. Select the 'CATALOG' view. 
+
+IMAGE
+
+Locate the Watson Studio service, under AI, and click on it. Note that this is a one-time setup, only one instance of Watson Studio per region needs to be created.
+
+IMAGE
+
+You are taken to the service creation page. It is possible to create an instance of Watson Studio in either US South or United Kingdom regions. Choose United Kingdom. You can change the service name suffix or keep the suggested name. Keep the Lite service plan and click the [Create] button.
+
+IMAGE
+
+
+### Create Watson Studio project
+
+Now that we have put in place the infrastructure to work with Data & AI, we can start creating a project for a specific data handling project.
+
+Select the Watson Studio service instance, and click the '[Get Started]' button 
+
+IMAGE
+
+The first time you start the Watson Studio UI, you will be asked to confirm some details, click the [Continue]
+
+IMAGE
+
+Note that you can also go directly to the service's Cloud Web UI using the URL for the region where the service has been created, either https://dataplatform.ibm.com/projects?context=analytics for 'US-South' or https://eu-gb.dataplatform.ibm.com/projects?context=analytics for 'United Kingdom' Create a new project using the New 
+
+IMAGE
+
+Project button tile  ->  
+Then select a Complete configuration. This governs which tools are made available to the project, and can be altered later if need be Validate with the [OK] button.
+
+Name this new project e.g. Mimmitkoodaa 2019.
+
+Note that you will want to leave the 'Restrict who can be a collaborator' unchecked, it will make sharing the project with another account more straightforward.
+
+Watson Studio stores its file-like artifacts into an instance of Cloud Object Storage, we will create a COS service instance at this stage.
+
+IMAGE
+
+Select the Lite Plan 
+
+IMAGE
+
+Accept the default names for resource group and Service name. Back to the Project creation page, select Refresh then the new Object Storage service instance. Finally, click Create.
+
+IMAGE
+
 
 ## Build a machine learning model 
 
