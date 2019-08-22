@@ -1,26 +1,18 @@
-# pets-ai
-Mimmitkoodaa 2019 Pets &amp; AI workshop
-
-# IBM Cloud :cloud: and Smart Homes:house_with_garden:
+# IBM Cloud :cloud: Pets & AI :dog: :cat:
 ## Mimmitkoodaa workshop guide 
 
 In this guide:
   - [Introduction](#introduction)
-  - [IoT devices](#iot-devices): Thingsee IoT sensors
-  - [PHASE 1](#phase-1): Create a web application
-  - [PHASE 2](#phase-2): Visualize your data
-  - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
-  - [PHASE 4](#phase-4): Connect with external APIs using Weather Insights
+  - [PHASE 1](#phase-1): PHASE 1
+  - [PHASE 2](#phase-2): PHASE 2
+  - [PHASE 3](#phase-3): PHASE 3
+  - [PHASE 4](#phase-4): PHASE 4
 
-  
-  
   #### Prerequisites
 - IBM Cloud account
   - Create a free account www.bluemix.net
-
-# MACHINE LEARNING WITH SOUND
-
-In this lab, you will learn how to gather data, which is an important task for generating machine learning models.
+  
+# INTRODUCTION: MACHINE LEARNING WITH SOUND
 
 During the machine learning process, data is analyzed and compared to determine correlations and patterns. Without data, you cannot generate a machine learning model, and the data needs to be comparable.
 
@@ -28,54 +20,7 @@ In the first three labs, you will create a prediction model that is based on the
 
 This lab shows you how the data set that is used to create the Cats and Dogs Sounds prediction model is created. You can follow the instructions to create the data and see how the data was built. However, this is not mandatory for the course because the data set that is created during this lab is available on GitHub, which you can use in Lab 2.
 
-Be sure you've installed the prerequisite software and set up accounts that are required for this course. You will need to sign in to Kaggle to download audio files.
-
-## Gather and prepare data 
-
-- Clone the animal sounds repository:
-
-git clone https://github.com/ibm-early-programs/animal-sounds
-
-- Change to the new animal sounds directory:
-
-cd animal-sounds
-
-
-- Sign in to Kaggle and download the cats_dogs.zip file. Extract the files and copy them to the audio directory. The zip file contains the test and train subfolders.
-
-- Change to the src directory inside the animal-sounds directory:
-
-/app/animal-sounds/src
-
-- Run the pip install command to install the application requirements, which are the converter and the service application that you'll use in a subsequent lab:
-
-pip install -r requirements.txt
-
-PIP NEEDS TO BE INSTALLED!!! 
-
- - https://www.shellhacks.com/python-install-pip-mac-ubuntu-centos/
- 
- MAC 
- $ sudo easy_install pip
- $ sudo pip install --upgrade pip
- 
-- Run the converter application that finds the audio files and generates a sound.csv file in the outputs folder:
-
-python ospconverter.py
-
-The file soundmac.csv is the same file that is opened and saved as a Mac CSV file by using a spreadsheet tool.
-
-Files on Windows and Macs have different coding for line endings. When you upload the documents to Watson Studio, the line endings are converted to a Linux variant, which might be incorrect if you use the wrong file.
-
-If you have a spreadsheet application, you can open the file and save it as a .csv file with the appropriate line endings for your operating system.
-
-
-- Review the generated file.
-
-Column 1 is the cat and dog classifier, and the remaining columns are the signal processing representation of the related audio tracks.
-
-You now have the audio files in a representation that can be used to generate a machine learning model.
-
+# PHASE 1
 
 ## Build a machine learning model 
 
@@ -85,7 +30,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 If you created Watson Studio projects before, you might see different images than what is shown here.
 
-Go to the IBM Watson page and click Log In to log in to IBM Watson Studio with your IBM ID and password. Then, scroll down to the Watson Services section.
+1. Go to the IBM Watson page and click Log In to log in to IBM Watson Studio with your IBM ID and password. Then, scroll down to the Watson Services section.
 
 <img src="/images/mach_learn_lab2_step1_2.png" width="100%" height="100%">
 
