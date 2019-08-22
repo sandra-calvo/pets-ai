@@ -1,6 +1,6 @@
-# IBM Cloud :cloud: Pets & AI 
+# IBM Cloud :cloud: --> Pets & AI 
 :robot: :heart: :dog: & :cat:
-## Mimmitkoodaa workshop guide 
+## Mimmitkoodaa workshop guide Fall 2019
 
 In this guide:
   - [Introduction](#introduction)
