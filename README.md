@@ -161,12 +161,34 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 <img src="/images/assets.png" width="100%" height="100%">
 
-2. You don't have any data sets in your project so click on **New data set** and select from your local machine the files **sound.csv** and **XXXXX.csv**.
+2. You don't have any data sets in your project so click on **New data set** and select from your local machine the files **sound.csv** and **shaped_sound.csv**.
 
 <img src="/images/add-data.png" width="100%" height="100%">
 
+3. After few seconds you will see both files listed as available assets under data assets.
+
+<img src="/images/added-data.png" width="100%" height="100%">
+
+Great! Our project is ready and we can start building the machine learning model! 
 
 ### Build the ML model 
+
+1. We will build the machine learning model using SPSS Modeler. Click on **Add to project** button on the top menu. 
+
+<img src="/images/add-to-project.png" width="40%" height="40%">
+
+2. Then select **Modeler flow**. 
+
+<img src="/images/modeler.png" width="80%" height="80%">
+
+3. Give your modeler flow a name and keep the default options selected - Modeler Flow & IBM SPSS Modeler. Then click on **Create**.
+
+<img src="/images/modelerflow.png" width="80%" height="80%">
+
+4. You will access an empty canvas where we will drag and drop nodes from the left menu and configure them to create our machine learning model. Note how easy it is to create a machine learning model with no code. 
+
+<img src="/images/canvas.png" width="80%" height="80%">
+
 
 
 
