@@ -105,7 +105,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 2. Then select **Create an empty project**.
 
-<img src="/images/empty-project.png" width="60%" height="60%">
+<img src="/images/empty-project.png" width="80%" height="80%">
 
 3. Give your project a name. Watson Studio stores its file-like artifacts into an instance of Cloud Object Storage, we will add a Cloud Object Storage instance by clicking the _**Add**_ button. 
 
@@ -117,7 +117,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 5. Confirm the creation.
 
-<img src="/images/confirm-cos.png" width="60%" height="60%">
+<img src="/images/confirm-cos.png" width="50%" height="50%">
 
 6. After step 5 you will be directed again to the Watson studio tab, where you were creating the project. Select _**Refresh**_ and you will see your new Cloud Object Storage instance appear. 
 
