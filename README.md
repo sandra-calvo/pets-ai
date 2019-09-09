@@ -13,6 +13,10 @@ In this guide:
   #### Prerequisites
 - IBM Cloud account
   - Create a free account https://cloud.ibm.com
+
+- Download or clone this repository
+
+<img src="/images/download-repo.png" width="60%" height="60%">
   
 This lab is for developers who have little or no experience with machine learning or have never created and trained predictive models. No data science background required.
   
@@ -139,9 +143,31 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 <img src="/images/add-wml.png" width="50%" height="50%">
 
-4. 
+4. Create a **New** Watson Machine learning servive with the Lite (Free) plan and click **Create**.
+
+<img src="/images/new-wml.png" width="100%" height="100%">
+
+5. Confirm the creation of the service. 
+
+<img src="/images/confirm-wml.png" width="40%" height="40%">
+
+6. After you confirm the creation you will be redirected to Watson Studio and under **Associated Services** you will see you Machine Learning instance. 
+
+<img src="/images/wml-added.png" width="100%" height="100%">
+
+## Add data to your project
+
+1. From the top menu select **Assets**.
+
+<img src="/images/assets.png" width="100%" height="100%">
+
+2. You don't have any data sets in your project so click on **New data set** and select from your local machine the files **sound.csv** and **XXXXX.csv**.
+
+<img src="/images/add-data.png" width="100%" height="100%">
+
 
 ### Build the ML model 
+
 
 
 ### Deploy the ML model
