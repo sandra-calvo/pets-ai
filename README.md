@@ -117,7 +117,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 5. Confirm the creation.
 
-<img src="/images/confirm-cos.png" width="50%" height="50%">
+<img src="/images/confirm-cos.png" width="40%" height="40%">
 
 6. After step 5 you will be directed again to the Watson studio tab, where you were creating the project. Select _**Refresh**_ and you will see your new Cloud Object Storage instance appear. 
 
@@ -137,7 +137,7 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 3. You will see a list of all Watson services that can be added to your Watson Studio project. We will add _**Machine Learning**_. Click on Add. 
 
-<img src="/images/add-wml.png" width="100%" height="100%">
+<img src="/images/add-wml.png" width="50%" height="50%">
 
 4. 
 
