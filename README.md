@@ -99,6 +99,30 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 ### Create your first project
 
+1. Create a new project using the Create a project button. 
+
+<img src="/images/new-project.png" width="40%" height="40%">
+
+2. Then select **Create an empty project**.
+
+<img src="/images/empty-project.png" width="60%" height="60%">
+
+3. Give your project a name. Watson Studio stores its file-like artifacts into an instance of Cloud Object Storage, we will add a Cloud Object Storage instance by clicking the _**Add**_ button. 
+
+<img src="/images/ws-project.png" width="100%" height="100%">
+
+4. Step 3 will open a new tab, an IBM Cloud tab, where you can either select an existing instance or create a new one. In this case we will create a new Cloud Object Storage service with the Lite (Free) plan. 
+
+<img src="/images/cos.png" width="100%" height="100%">
+
+5. Confirm the creation.
+
+<img src="/images/confirm-cos.png" width="60%" height="60%">
+
+6. After step 5 you will be directed again to the Watson studio tab, where you were creating the project. Select _**Refresh**_ and you will see your new Cloud Object Storage instance appear. 
+
+<img src="/images/create-project-with-cos.png" width="100%" height="100%">
+
 
 ### Build the ML model 
 
