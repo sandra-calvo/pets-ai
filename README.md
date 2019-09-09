@@ -3,7 +3,7 @@
 ## Mimmitkoodaa workshop guide Fall 2019
 
 In this guide:
-  - [Introduction](#introduction)
+  - [INTRODUCTION](#introduction)
   - [PHASE 1](#phase-1): Build a machine learning model using sound files
   - [PHASE 2](#phase-2): Call your model from a web application
   - [PHASE 3](#phase-3): Add visual recognition to your application
@@ -16,9 +16,9 @@ In this guide:
   
 # INTRODUCTION
 
-## USE CASE
+### USE CASE
 
-## DATA 
+### DATA 
 
 
 # PHASE 1
