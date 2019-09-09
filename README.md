@@ -123,6 +123,23 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 <img src="/images/create-project-with-cos.png" width="100%" height="100%">
 
+### Configure your first project
+
+In this lab we will create a machine learning model and deploy it using Watson Machine Learning. Later we will use Visual Recognition to classify images. Let's create the needed services! 
+
+1. Click on Settings. 
+
+<img src="/images/ws-project-view.png" width="100%" height="100%">
+
+2. Go to _**Associated Services_**, click on _**Add service**_ and select _**Watson**_.
+
+<img src="/images/add-services.png" width="100%" height="100%">
+
+3. You will see a list of all Watson services that can be added to your Watson Studio project. We will add _**Machine Learning**_. Click on Add. 
+
+<img src="/images/add-wml.png" width="100%" height="100%">
+
+4. 
 
 ### Build the ML model 
 
