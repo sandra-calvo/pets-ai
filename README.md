@@ -4,16 +4,22 @@
 
 In this guide:
   - [Introduction](#introduction)
-  - [PHASE 1](#phase-1): PHASE 1
-  - [PHASE 2](#phase-2): PHASE 2
-  - [PHASE 3](#phase-3): PHASE 3
-  - [PHASE 4](#phase-4): PHASE 4
+  - [PHASE 1](#phase-1): Build a machine learning model using sound files
+  - [PHASE 2](#phase-2): Call your model from a web application
+  - [PHASE 3](#phase-3): Add visual recognition to your application
+  - [SUMMARY](#summary)
+ 
 
   #### Prerequisites
 - IBM Cloud account
   - Create a free account https://cloud.ibm.com
   
 # INTRODUCTION
+
+## USE CASE
+
+## DATA 
+
 
 # PHASE 1
 
@@ -28,7 +34,7 @@ In this guide:
 
 # PHASE 2
 
-## Use the ML model from an application 
+## Use the ML model from a web application 
 
 ### Create a Node-RED application
 
@@ -38,9 +44,11 @@ In this guide:
 
 # PHASE 3
 
-## Object detection 
+## Configure Visual Recognition flow
 
-# PHASE 4
+### Test your application
+
+# SUMMARY
 
 
  
