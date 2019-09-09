@@ -73,7 +73,7 @@ We will create the machine learning model using **SPSS Modeler**. With SPSS Mode
 
 To complete this lab you will need an instance of Watson Machine Learning that allows you to create and deploy machine learning models, and an instance of Watson Studio which provides a user interface and wizards that guide you through the process of creating machine learning models.
 
-1. Log-in to you IBM Cloud account's cloud.ibm.com 
+1. Log-in to you IBM Cloud account's https://cloud.ibm.com
 
 2. Click the _**Create Resource**_ button at the top right 
 
@@ -81,19 +81,19 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 3. Find _**Watson Studio**_ under AI and click on it. 
 
-<img src="/images/watson-studio.png" width="90%" height="90%">
+<img src="/images/watson-studio.png" width="50%" height="50%">
 
 4. You are taken to the service creation page. Choose _**London**_ as the region to deploy Watson Studio. You can change the service name suffix or keep the suggested name. Keep the Lite (Free) service plan and click the [Create] button.
 
-<img src="/images/watson-studio-create.png" width="90%" height="90%">
+<img src="/images/watson-studio-create.png" width="100%" height="100%">
 
 5. Click on [Get Started] button to start Watson Studio.
 
-<img src="/images/watson-studio-get-started.png" width="90%" height="90%">
+<img src="/images/watson-studio-get-started.png" width="40%" height="40%">
 
-6. Once the environment is ready you will see a pop up. Click on Get Started to access Watson Studio.
+6. Once the environment is ready you will see a pop up. Click on _Get Started_ to access Watson Studio.
 
-<img src="/images/done.png" width="90%" height="90%">
+<img src="/images/done.png" width="50%" height="50%">
 
 **WATSON STUDIO OVERVIEW**
 
