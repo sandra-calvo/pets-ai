@@ -80,20 +80,20 @@ On the **right-hand** side is the output pane that can be toggled between the in
 
 The **Deploy button** is used when a flow has been constructed and causes the flow to be deployed onto the Node-RED system and executed. 
 
-Drag and drop the following nodes to the canvas:
+1. Drag and drop the following nodes to the canvas:
 
 - **Inject**: The inject node is used to generate input into a flow and is one of the first nodes in the node palette under input.
 
-<img src="/images/inject.png" width="40%" height="40%">
+<img src="/images/inject.png" width="20%" height="20%">
 
 Double click on the inject node, select string and write a message then click **Done**.
 
 <img src="/images/inject-edit.png" width="50%" height="50%">
 
 - Debug
-<img src="/images/debug.png" width="40%" height="40%">
+<img src="/images/debug.png" width="20%" height="20%">
 
-Connect the nodes and click the deploy button in the Node-RED window (top right). You’ll see a pop-up saying the flow has been successfully deployed. You will also notice that the blue dots on the nodes disappear, indicating there are no un-deployed changes.
+2. Connect the nodes and click the deploy button in the Node-RED window (top right). You’ll see a pop-up saying the flow has been successfully deployed. You will also notice that the blue dots on the nodes disappear, indicating there are no un-deployed changes.
 
 Now, before you try the flow, make sure the the debug tab is selected on the right pane. Then click on the left tab on the inject node and look at what appears in the debug pane. This will send the message and you will see it in the debug window on the right side. 
 
@@ -104,28 +104,29 @@ Now, before you try the flow, make sure the the debug tab is selected on the rig
 
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
-      - node-red-dashboard
-      - node-red-node-openweathermap
+      - node-red-base64
+      - node-red-contrib-browser-utils
 
-In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
+1. In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
-<img src="/images/App23.png" width="20%" height="20%">
+<img src="/images/manage-palette.png" width="30%" height="30%">
 
 You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
 
-<img src="/images/App24.png" width="30%" height="30%">
+<img src="/images/install-nodes.png" width="30%" height="30%">
              
-Search for the dashboard nodes by writing 'dashboard'. This will return multiple node packages, you need to install the package 'node-red-dashboard'. Find it in the search results and click on install. 
+2. Search for the base64 nodes by writing 'base64'. This will return one node package, you need to install the package 'node-red-base64'. Click on install. 
 
-<img src="/images/App25.png" width="30%" height="30%">
+<img src="/images/base64.png" width="30%" height="30%">
  
 This will prompt a window to confirm the installation. Click on install and wait few minutes. Click "Done" to close the left side menu. 
 
-<img src="/images/App26.png" width="50%" height="50%">
+<img src="/images/base64-installed.png" width="50%" height="50%">
 
-After few seconds you will see the new nodes in your Node-RED palette.
+After few seconds you will see the base64 node in your Node-RED palette.
 
-**Remember to repeat this process to install node-red-node-openweathermap package.** :partly_sunny:
+3. Repeat the process for the **node-red-contrib-browser-utils** package. 
+
 
 ## Configure your application
 
