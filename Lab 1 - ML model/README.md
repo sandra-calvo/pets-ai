@@ -1,4 +1,4 @@
-# PHASE 1
+# LAB 1
 
 ## Build a machine learning model with sound
 
