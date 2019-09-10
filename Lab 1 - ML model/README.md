@@ -1,7 +1,7 @@
 # LAB 1 - Build a machine learning model with sound
 
 
-In this first lab you will build a machine learning model with sound files:
+In this lab you will build a machine learning model with audio files:
 
   - [Build the machine learning model](#build-the-machine-learning-model)
   - [Deploy the model](#deploy-the-model)
@@ -57,7 +57,7 @@ Partition nodes are used to generate a partition field that splits the data into
 
 Double click on the Partition node and select a training partition of 80% and a testing partition of 20%. Then click Save. 
 
-<img src="/images/partition-menu.png" width="50%" height="50%">
+<img src="/images/partition-menu.png" width="40%" height="40%">
 
 7. From the node menu select **Type** under Field Operations and move it to the canvas after the partition node. Connect the partition and the type node. Type node specifies the type of the parameters in the data set. 
 
@@ -83,7 +83,7 @@ The Auto Classifier node estimates and compares models for either nominal (set) 
 
 13. Click on the 3 dots in the green Auto Classifier node and from the menu select **Save branch as a model**.
 
-<img src="/images/model-branch.png" width="50%" height="50%">
+<img src="/images/model-branch.png" width="40%" height="40%">
 
 14. Give your model a name and click Save.
 
@@ -106,22 +106,21 @@ When you deploy the model, you are making it available to process new data and r
 
 1. Go down to Models and you will see your new model listed.
 
-<img src="/images/models-list.png" width="80%" height="80%">
-
+<img src="/images/models-list.png" width="100%" height="100%">
 
 2. Click on your model. You will see a summary of your model's information. Go to deployments.
 
-<img src="/images/model-overview.png" width="80%" height="80%">
+<img src="/images/model-overview.png" width="100%" height="100%">
 
 3. Select the right side button **Add deployment**.
 
 This will be using the Watson Machine Learning service we created in the beginning of the lab. 
 
-<img src="/images/new-deployment.png" width="80%" height="80%">
+<img src="/images/new-deployment.png" width="100%" height="100%">
 
 4. Give your deployment a name and click Save. This will create a web service and you will be able to access your deployment through an API endpoint to analyze data.
 
-<img src="/images/new-deployment-name.png" width="80%" height="80%">
+<img src="/images/new-deployment-name.png" width="60%" height="60%">
 
 Check the status of the deployment. It will go from Initializing to Deploy_Success in few minutes. Refresh the page to see the changes. 
 
@@ -131,7 +130,7 @@ Now that you have a machine learning model deployed we can test it.
 
 1. Click on the deployment's name. 
 
-<img src="/images/deployment.png" width="80%" height="80%">
+<img src="/images/deployment.png" width="100%" height="100%">
 
 2. Now you see your deployment's information. Click on **Test** to test your model 
 
@@ -141,7 +140,7 @@ Now that you have a machine learning model deployed we can test it.
 
 Click on the page icon to access the payload input field. 
 
-<img src="/images/test-model.png" width="80%" height="80%">
+<img src="/images/test-model.png" width="50%" height="50%">
 
 For a cat introduce the following text then click on Predict:
 ```json
@@ -158,3 +157,9 @@ You can try a dog prediction too using the following code:
 ```
 
 ## Summary
+
+Congratulations! You completed Lab 1! :clap:
+
+In this lab you created a machine learning model using SPSS with zero lines of code. Then you saved the model and created a deployment as a web service. In the last part you got to test your model with test data. 
+
+Time to move to the Lab 3 and build your own web application that will call your model through a REST API. 
