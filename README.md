@@ -4,6 +4,7 @@
 
 In this guide:
   - [Introduction](#introduction)
+  - [Lab 0 - Set up the environment](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%200%20-%20Set%20up%20the%20environment)
   - [Lab 1 - Build a machine learning model using sound files](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%201%20-%20ML%20model)
   - [Lab 2 - Call your model from a web application](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%202%20-%20%20Web%20application)
   - [Lab 3 - Add visual recognition to your application](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%203%20-%20Visual%20Recognition)
