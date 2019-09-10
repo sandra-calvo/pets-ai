@@ -1,6 +1,6 @@
 # Lab 0 - Set up the environment
 
-In this lab:
+In this lab you will set up the environment and all needed components for your machine learning model. 
 
   - [Set up Watson Studio](#set-up-watson-studio)
   - [Create your first project](#create-your-first-project)
@@ -104,6 +104,9 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 <img src="/images/added-data.png" width="100%" height="100%">
 
-Great! Our project is ready and we can start building the machine learning model! 
 
 ## Summary
+
+Great! In this lab you created a Watson Studio instance and a Machine Learning service. You also created and configured your first project and added the needed data for our next lab. 
+Now that Watson Studio environment is ready go to [Lab 1 - Build a machine learning model using sound files](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%201%20-%20ML%20model) to create your Machine learning model. 
+
