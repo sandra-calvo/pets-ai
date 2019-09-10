@@ -2,7 +2,7 @@
 :robot: :heart: :dog: & :cat:
 ## Mimmitkoodaa workshop guide Fall 2019
 
-In this guide:
+In this workshop:
   - [Introduction](#introduction)
   - [Lab 0 - Set up the environment](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%200%20-%20Set%20up%20the%20environment)
   - [Lab 1 - Build a machine learning model using sound files](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%201%20-%20ML%20model)
@@ -11,7 +11,15 @@ In this guide:
   - [Summary](#summary)
 
 
-  #### Prerequisites
+# INTRODUCTION
+
+ - [Prerequisites](#prerequisites)
+ - [Use Case](#use-case)
+ - [Tools](#tools)
+ - [Data](#data)
+ - [Summary](#summary)
+
+## Prerequisites
 - IBM Cloud account
   - Create a free account https://cloud.ibm.com
 
@@ -21,9 +29,8 @@ In this guide:
   
 This lab is for developers who have little or no experience with machine learning or have never created and trained predictive models. No data science background required.
   
-# INTRODUCTION
 
-### Use Case
+## Use Case
 
 Have you ever had an annoying neighbour that complains about your dog barking when you are not at home? 
 With this lab you will be able to prove to you neighbour that is not your dog who barks! :smiley: 
@@ -65,7 +72,7 @@ You can see the convertion output in the file: **sound.csv**.
 If you are interested in processing other files, you can check the python script **ospconverter.py**.
 
 
-# SUMMARY
+## Summary
 
 
  
