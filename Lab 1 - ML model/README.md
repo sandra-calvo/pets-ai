@@ -134,5 +134,24 @@ Great! Our project is ready and we can start building the machine learning model
 
 <img src="/images/canvas.png" width="80%" height="80%">
 
+5. From the left side menu find the node **Data Assets** under the Import category. Drag and drop the node to the canvas. 
+
+<img src="/images/data-assets.png" width="30%" height="30%">
+
+Double click on the data assets node and you will see a new menu open in the rights side of the screen. Click on the **Change data asset** button. 
+
+<img src="/images/data-assets-menu.png" width="60%" height="60%">
+
+Select Data Assets and file sound.csv, then click OK.
+
+<img src="/images/select-data-set.png" width="100%" height="100%">
+
+Now you will see your file listed as the data asset in use. Click **Save** to save the changes and go back to the canvas. 
+
+<img src="/images/data-asset-added.png" width="80%" height="80%">
+
+6. Find the Partition node. 
+
+
 
 ### Deploy the model
