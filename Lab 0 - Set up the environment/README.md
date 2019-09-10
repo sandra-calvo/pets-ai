@@ -107,6 +107,9 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 ## Summary
 
-Great! In this lab you created a Watson Studio instance and a Machine Learning service. You also created and configured your first project and added the needed data for our next lab. 
+Great! Lab 0 is complete!
+
+In this lab you created a Watson Studio instance and a Machine Learning service. You also created and configured your first project and added the needed data for our next lab. 
+
 Now that Watson Studio environment is ready go to [Lab 1 - Build a machine learning model using sound files](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%201%20-%20ML%20model) to create your Machine learning model. 
 
