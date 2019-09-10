@@ -4,11 +4,11 @@
 
 In this guide:
   - [INTRODUCTION](#introduction)
-  - [LAB 1](#lab-1): Build a machine learning model using sound files
-  - [LAB 2](#lab-2): Call your model from a web application
-  - [LAB 3](#lab-3): Add visual recognition to your application
+  - [Lab 1 - Build a machine learning model using sound files](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%201%20-%20ML%20model)
+  - [Lab 2 - Call your model from a web application](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%202%20-%20%20Web%20application)
+  - [Lab 3 - Add visual recognition to your application](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%203%20-%20Visual%20Recognition)
   - [SUMMARY](#summary)
- 
+
 
   #### Prerequisites
 - IBM Cloud account
@@ -63,30 +63,6 @@ You can see the convertion output in the file: **sound.csv**.
 
 If you are interested in processing other files, you can check the python script **ospconverter.py**.
 
-
-
-
-# LAB 2
-
-## Use the ML model from a web application 
-
-Create a Node-RED application (web page) where you can run predictions against audio files and see the results.
-
-### Create a Node-RED application
-
-### Configure Node-RED application
-
-### Test the Node-RED application
-
-# LAB 3
-
-## Add visual recognition to your application
-
-Create two simple UIs in Node-RED: one for the birdsong models and one for the cats and dogs model. Then, integrate the IBM Watson Visual Recognition service to identify images of these animals.
-
-## Configure Visual Recognition flow
-
-### Test your application
 
 # SUMMARY
 
