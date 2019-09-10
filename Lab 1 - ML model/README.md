@@ -1,5 +1,15 @@
 # LAB 1
 
+
+In this first lab you will build a machine learning model with sound files:
+
+  - [Set up the environment](#set-up-the-environment)
+  - [Create your first project](#create-your-first-project)
+  - [Configure your project](#configure-your-project)
+  - [Add data to your project](#add-data-to-your-project)
+  - [Build the machine learning model](#build-the-machine-learning-model)
+  - [Deploy the model](#deploy-the-model)
+
 ## Build a machine learning model with sound
 
 Create a machine learning project in Watson Studio. Then, use a **sound.csv** file to build and deploy a binary machine learning model that can predict whether a sound is coming from a cat or a dog.
@@ -62,7 +72,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 <img src="/images/create-project-with-cos.png" width="100%" height="100%">
 
-### Configure your first project
+### Configure your project
 
 In this lab we will create a machine learning model and deploy it using Watson Machine Learning. Later we will use Visual Recognition to classify images. Let's create the needed services! 
 
@@ -106,7 +116,7 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 Great! Our project is ready and we can start building the machine learning model! 
 
-### Build the ML model 
+### Build the machine learning model 
 
 1. We will build the machine learning model using SPSS Modeler. Click on **Add to project** button on the top menu. 
 
@@ -125,6 +135,4 @@ Great! Our project is ready and we can start building the machine learning model
 <img src="/images/canvas.png" width="80%" height="80%">
 
 
-
-
-### Deploy the ML mode
+### Deploy the model
