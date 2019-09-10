@@ -130,6 +130,41 @@ After few seconds you will see the base64 node in your Node-RED palette.
 
 ## Configure your application
 
+In this section we will build a simple flow to test our model sending cat and dog sounds using the microphone or via audio files. 
+
+1. Copy the content of the **visualizationUI_simulatedData.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
+
+Use the keyboard shortcuts to select all content and copy it.
+    
+  OSx
+    <kbd>Cmd</kbd>+<kbd>A</kbd> -->
+    <kbd>Cmd</kbd>+<kbd>C</kbd>
+
+  Windows
+    <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
+    <kbd>Ctrl</kbd>+<kbd>C</kbd>
+
+
+Open a new tab in Node-RED by clicking on the '+' sign. 
+
+<img src="/images/newflow.png" width="40%" height="40%">
+
+Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
+
+<img src="/images/App27.png" width="50%" height="50%">
+
+Paste the text you copied from the file. 
+
+<img src="/images/App28.png" width="50%" height="50%">
+
+This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
+The code will create a new tab called Environment with a flow like this:
+
+<img src="/images/simulations5.png" width="60%" height="60%">
+
+Deploy your application changes from the **Deploy** button on the top right side of the screen. 
+
+
 ## Get machine learning API Key
 
 ## Test the application
