@@ -9,6 +9,7 @@ In this first lab you will build a machine learning model with sound files:
   - [Add data to your project](#add-data-to-your-project)
   - [Build the machine learning model](#build-the-machine-learning-model)
   - [Deploy the model](#deploy-the-model)
+  - [Summary](#summary)
 
 ## Build a machine learning model with sound
 
@@ -134,9 +135,10 @@ Great! Our project is ready and we can start building the machine learning model
 
 <img src="/images/canvas.png" width="80%" height="80%">
 
-5. From the left side menu find the node **Data Assets** under the Import category. Drag and drop the node to the canvas. 
+5. From the left side menu find the node **Data Assets** under the Import category. Drag and drop the node to the canvas.
+You can use the Data Asset import node to pull in data from remote data sources using connections. You can also pull in data from an Excel file (.xls) or a .csv file. 
 
-<img src="/images/data-assets.png" width="20%" height="20%">
+<img src="/images/data-assets.png" width="5%" height="5%">
 
 Double click on the data assets node and you will see a new menu open in the rights side of the screen. Click on the **Change data asset** button. 
 
@@ -150,8 +152,56 @@ Now you will see your file listed as the data asset in use. Click **Save** to sa
 
 <img src="/images/data-asset-added.png" width="40%" height="40%">
 
-6. Find the Partition node. 
+6. Find the **Partition** node under Field Operations. Drag and drop the node and connect it to the Data Asset node. 
 
+Partition nodes are used to generate a partition field that splits the data into separate subsets or samples for the training, testing, and validation stages of model building. By using one sample to generate the model and a separate sample to test it, you can get a good indication of how well the model will generalize to larger datasets that are similar to the current data.
+
+<img src="/images/partition-node.png" width="5%" height="5%">
+
+Double click on the Partition node and select a training partition of 80% and a testing partition of 20%. Then click Save. 
+
+<img src="/images/partition-menu.png" width="70%" height="70%">
+
+7. From the node menu select **Type** under Field Operations and move it to the canvas after the partition node. Connect the partition and the type node. Type node specifies the type of the parameters in the data set. 
+
+<img src="/images/type-node.png" width="5%" height="5%">
+
+Double click on the Type node and click on **Read Values**, this will read the data set and detect the data type. Make sure you select COLUMN1 as the target. This is the value we want to predict. Then click Save. 
+
+<img src="/images/type-menu.png" width="80%" height="80%">
+
+8. From the node palette find a node called **Auto Classifier** located under Modeling. Connect the Type node to the Auto Classifier. 
+
+The Auto Classifier node estimates and compares models for either nominal (set) or binary (yes/no) targets, using a number of different methods, enabling you to try out a variety of approaches in a single modeling run. You can select the algorithms to use, and experiment with multiple combinations of options. 
+
+<img src="/images/autoclassifier-node.png" width="5%" height="5%">
+
+9. 
+
+10.
+
+11.
+
+12.
+
+13. Click on the 3 dots in the green Auto Classifier node and from the menu select **Save branch as a model**.
+
+<img src="/images/model-branch.png" width="80%" height="80%">
+
+14. Give your model a name and click Save.
+
+<img src="/images/save-model.png" width="80%" height="80%">
+
+Close the pop-up window and you will be redirected to the SPSS canvas. 
+
+<img src="/images/model-saved.png" width="50%" height="50%">
+
+From the top menu click on your project name to go back to the project main page. Note that in this lab we called our project Machine Learning. 
+
+<img src="/images/go-back-menu.png" width="50%" height="50%">
 
 
 ### Deploy the model
+
+
+## Summary
