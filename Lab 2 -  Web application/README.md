@@ -37,7 +37,7 @@ Your application is now staging and will be up and running in a short while. Cli
 
 The application will be ready in a couple of minutes. If you want to check the progress click on the _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
 
-<img src="/images/logs.png" width="40%" height="40%">
+<img src="/images/logs.png" width="20%" height="20%">
 
 
 5. When fully staged, click on the _Visit app URL_, next to the green or half green circle, this launches the Node-RED main page.
@@ -70,7 +70,38 @@ When using Node-RED we build our apps using this graphical editor interface to w
 
 ## Create your first flow
 
+Before we jump into the lab flow, let's get familiar with the Node-RED canvas. 
+
+The **main pane** is the flow creation workspace in the middle. This is where you drag and drop nodes and connect them with wires. Along the top of the workspace pane is a set of tabs. Each tab opens a previously created workspace and shows any flows created using that workspace.
+
+On the **left** is the node pane that contains all the built-in nodes that your instance of Node-RED supports. As you can see, nodes are grouped into categories. Opening up a category shows the individual nodes.
+
+On the **right-hand** side is the output pane that can be toggled between the info and debug tabs. When info is selected, documentation for the selected node is shown there.  When debug is selected, it will display the output of debug nodes, errors and warnings.
+
+The **Deploy button** is used when a flow has been constructed and causes the flow to be deployed onto the Node-RED system and executed. 
+
+Drag and drop the following nodes to the canvas:
+
+- **Inject**: The inject node is used to generate input into a flow and is one of the first nodes in the node palette under input.
+
+<img src="/images/inject.png" width="40%" height="40%">
+
+Double click on the inject node, select string and write a message then click **Done**.
+
+<img src="/images/inject-edit.png" width="50%" height="50%">
+
+- Debug
+<img src="/images/debug.png" width="40%" height="40%">
+
+Connect the nodes and click the deploy button in the Node-RED window (top right). You’ll see a pop-up saying the flow has been successfully deployed. You will also notice that the blue dots on the nodes disappear, indicating there are no un-deployed changes.
+
+Now, before you try the flow, make sure the the debug tab is selected on the right pane. Then click on the left tab on the inject node and look at what appears in the debug pane. This will send the message and you will see it in the debug window on the right side. 
+
+<img src="/images/testflow.png" width="80%" height="80%">
+
+
 ## Add new nodes
+
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
