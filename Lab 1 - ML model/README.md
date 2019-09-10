@@ -164,7 +164,7 @@ In the next lab we will be creating a web application which will call the model.
 
 1. Go to the Implementation tab and copy in a notepad the **Scoring End Point**. We will need it later. 
 
-<img src="/images/score-endpoint.png" width="70%" height="70%">
+<img src="/images/score-endpoint.png" width="90%" height="90%">
 
 
 ## Summary
