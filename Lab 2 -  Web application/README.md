@@ -113,11 +113,11 @@ We are going to add new nodes to the Node-RED palette directly from the Node-RED
 
 You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
 
-<img src="/images/install-nodes.png" width="30%" height="30%">
+<img src="/images/install-nodes.png" width="80%" height="80%">
              
 2. Search for the base64 nodes by writing 'base64'. This will return one node package, you need to install the package 'node-red-base64'. Click on install. 
 
-<img src="/images/base64.png" width="30%" height="30%">
+<img src="/images/base64.png" width="90%" height="90%">
  
 This will prompt a window to confirm the installation. Click on install and wait few minutes. Click "Done" to close the left side menu. 
 
