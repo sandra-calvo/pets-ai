@@ -6,8 +6,9 @@ In this lab:
   - [Create your first project](#create-your-first-project)
   - [Configure your project](#configure-your-project)
   - [Add data to your project](#add-data-to-your-project)
+  - [Summary](#summary)
   
-  ### Set up Watson Studio
+## Set up Watson Studio
 
 To complete this lab you will need an instance of Watson Machine Learning that allows you to create and deploy machine learning models, and an instance of Watson Studio which provides a user interface and wizards that guide you through the process of creating machine learning models.
 
@@ -35,7 +36,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 **WATSON STUDIO OVERVIEW**
 
-### Create your first project
+## Create your first project
 
 1. Create a new project using the Create a project button. 
 
@@ -61,7 +62,7 @@ To complete this lab you will need an instance of Watson Machine Learning that a
 
 <img src="/images/create-project-with-cos.png" width="100%" height="100%">
 
-### Configure your project
+## Configure your project
 
 In this lab we will create a machine learning model and deploy it using Watson Machine Learning. Later we will use Visual Recognition to classify images. Let's create the needed services! 
 
@@ -104,3 +105,5 @@ In this lab we will create a machine learning model and deploy it using Watson M
 <img src="/images/added-data.png" width="100%" height="100%">
 
 Great! Our project is ready and we can start building the machine learning model! 
+
+## Summary
