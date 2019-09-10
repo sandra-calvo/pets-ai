@@ -4,9 +4,9 @@
 
 In this guide:
   - [INTRODUCTION](#introduction)
-  - [PHASE 1](#phase-1): Build a machine learning model using sound files
-  - [PHASE 2](#phase-2): Call your model from a web application
-  - [PHASE 3](#phase-3): Add visual recognition to your application
+  - [LAB 1](#lab-1): Build a machine learning model using sound files
+  - [LAB 2](#lab-2): Call your model from a web application
+  - [LAB 3](#lab-3): Add visual recognition to your application
   - [SUMMARY](#summary)
  
 
@@ -63,7 +63,7 @@ You can see the convertion output in the file: **sound.csv**.
 
 If you are interested in processing other files, you can check the python script **ospconverter.py**.
 
-# PHASE 1
+# LAB 1
 
 ## Build a machine learning model with sound
 
@@ -195,7 +195,7 @@ Great! Our project is ready and we can start building the machine learning model
 ### Deploy the ML model
 
 
-# PHASE 2
+# LAB 2
 
 ## Use the ML model from a web application 
 
@@ -207,7 +207,7 @@ Create a Node-RED application (web page) where you can run predictions against a
 
 ### Test the Node-RED application
 
-# PHASE 3
+# LAB 3
 
 ## Add visual recognition to your application
 
