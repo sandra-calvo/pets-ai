@@ -120,7 +120,7 @@ Great! Our project is ready and we can start building the machine learning model
 
 1. We will build the machine learning model using SPSS Modeler. Click on **Add to project** button on the top menu. 
 
-<img src="/images/add-to-project.png" width="40%" height="40%">
+<img src="/images/add-to-project.png" width="20%" height="20%">
 
 2. Then select **Modeler flow**. 
 
@@ -136,19 +136,19 @@ Great! Our project is ready and we can start building the machine learning model
 
 5. From the left side menu find the node **Data Assets** under the Import category. Drag and drop the node to the canvas. 
 
-<img src="/images/data-assets.png" width="30%" height="30%">
+<img src="/images/data-assets.png" width="20%" height="20%">
 
 Double click on the data assets node and you will see a new menu open in the rights side of the screen. Click on the **Change data asset** button. 
 
-<img src="/images/data-assets-menu.png" width="60%" height="60%">
+<img src="/images/data-assets-menu.png" width="30%" height="30%">
 
 Select Data Assets and file sound.csv, then click OK.
 
-<img src="/images/select-data-set.png" width="100%" height="100%">
+<img src="/images/select-data-set.png" width="80%" height="80%">
 
 Now you will see your file listed as the data asset in use. Click **Save** to save the changes and go back to the canvas. 
 
-<img src="/images/data-asset-added.png" width="80%" height="80%">
+<img src="/images/data-asset-added.png" width="40%" height="40%">
 
 6. Find the Partition node. 
 
