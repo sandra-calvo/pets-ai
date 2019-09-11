@@ -74,19 +74,47 @@ The Auto Classifier node estimates and compares models for either nominal (set) 
 
 <img src="/images/autoclassifier-node.png" width="15%" height="15%">
 
-9. 
+Your flow should look like this:
 
-10.
+<img src="/images/modelerf-flow0.png" width="80%" height="80%">
 
-11.
+9. Run the flow by clicking the play button on the top menu. This will take few minutes. 
 
-12.
+<img src="/images/play.png" width="60%" height="60%">
 
-13. Click on the 3 dots in the green Auto Classifier node and from the menu select **Save branch as a model**.
+10. Running the flow created a new orange node. 
 
-<img src="/images/model-branch.png" width="40%" height="40%">
+<img src="/images/modeler-flow1.png" width="60%" height="60%">
 
-14. Give your model a name and click Save.
+11. Now delete the line connecting the **Type** node and the orange node. Double click on the line to delete it. 
+
+<img src="/images/delete-line.png" width="80%" height="80%">
+
+12. Drag a **Data assets** node and put it under the **Type** node. 
+
+Double click on the data assets node and you will see a new menu open in the rights side of the screen. Click on the **Change data asset** button. 
+
+<img src="/images/data-assets-menu.png" width="30%" height="30%">
+
+Select Data Assets and file shaped_sound.csv, then click OK.
+
+Now you will see your file listed as the data asset in use. Click **Save** to save the changes and go back to the canvas. 
+
+13. Connect the new Data assets node to the orange node. 
+
+14. Find a **Table** node and connect it to the orange node output. 
+
+<img src="/images/table-node.png" width="15%" height="15%">
+
+Your modeler flow should look like this:
+
+<img src="/images/modeler-flow2.png" width="80%" height="80%">
+
+15. Click on the 3 dots in the Table node and from the menu select **Save branch as a model**.
+
+<img src="/images/save-branch.png" width="40%" height="40%">
+
+16. Give your model a name and click Save.
 
 <img src="/images/save-model.png" width="60%" height="60%">
 
