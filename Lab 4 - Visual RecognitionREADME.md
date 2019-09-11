@@ -1,4 +1,4 @@
-# LAB 3
+# LAB 4
 
 ## Add visual recognition to your application
 
