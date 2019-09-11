@@ -231,3 +231,7 @@ Now test the microphone!
 4. Check the results in the debug tab on the left side of your screen. 
 
 ## Summary
+
+In this lab you learned how to create a Node-RED application and call your machine learning model from it. After this you were able to send audio files to your model and even make sounds using your microphone to test your dog & cat skills. 
+
+Continue to [Lab 3 - Create a UI for your application](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%203%20-%20Create%20an%20UI)! 
