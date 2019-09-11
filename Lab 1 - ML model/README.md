@@ -77,7 +77,7 @@ The Auto Classifier node estimates and compares models for either nominal (set) 
 
 Your flow should look like this:
 
-<img src="/images/modeler-flow-init.png" width="80%" height="80%">
+<img src="/images/modeler-flow-init.png" width="70%" height="70%">
 
 9. Run the flow by clicking the play button on the top menu. This will take few minutes. 
 
