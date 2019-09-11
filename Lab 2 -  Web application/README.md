@@ -6,8 +6,8 @@ Create a Node-RED application (web page) where you can run predictions against a
 - [Create a Node-RED application](#create-a-node-red-application)
 - [Create your first flow](#create-your-first-flow)
 - [Add new nodes](#add-new-nodes)
+- [Import the application flow](#import-the-application-flow)
 - [Configure your application](#configure-your-application)
-- [Get machine learning API Key](#get-machine-learning-api-key)
 - [Test the application](#test-the-application)
 - [Summary](#summary)
 
@@ -128,11 +128,11 @@ After few seconds you will see the base64 node in your Node-RED palette.
 3. Repeat the process for the **node-red-contrib-browser-utils** package. 
 
 
-## Configure your application
+## Import the application flow
 
 In this section we will build a simple flow to test our model sending cat and dog sounds using the microphone or via audio files. 
 
-1. Copy the content of the **visualizationUI_simulatedData.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
+1. Copy the content of the **dog-car-flow.json** file. Open the file URL. [ code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
@@ -144,28 +144,54 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-
-Open a new tab in Node-RED by clicking on the '+' sign. 
-
-<img src="/images/newflow.png" width="40%" height="40%">
-
-Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
+2. Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
 
-Paste the text you copied from the file. 
+3. Paste the text you copied from the file. 
 
 <img src="/images/App28.png" width="50%" height="50%">
 
-This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
-The code will create a new tab called Environment with a flow like this:
-
 <img src="/images/simulations5.png" width="60%" height="60%">
 
-Deploy your application changes from the **Deploy** button on the top right side of the screen. 
+4. Deploy your application changes from the **Deploy** button on the top right side of the screen. 
+
+This flow reads data from audio files or audio coming through the microphone on your computer, then the audio files are sent to a OSP converter application that converts the audio file into a buffer readable to our machine learning model. The input buffer is sent to out Machine Learning model created in the previous lab and we see the results in the debug tab of the Node-RED window. 
 
 
-## Get machine learning API Key
+## Configure your application
+
+In order to connect your model with your application you need to edit few nodes. First, let's get the Machine Learning service API key. 
+
+1. Go to IBM Cloud. If you closed it you can always access by opening https://cloud.ibm.com/ in a new tab.
+
+2. Click on the hamburger menu on the left top corner. 
+
+<img src="/images/hamburger-menu.png" width="40%" height="40%">
+
+Then select **Resource List** to access all your services.
+
+<img src="/images/resource-list.png" width="40%" height="40%">
+
+3. Find the machine learning service under **Services**. Note that the name of your service will be different to the one in the picture. 
+
+<img src="/images/ml-list.png" width="80%" height="80%">
+
+Click on the name to access the service's details. 
+
+4. In the left side menu go to **Service Credentials**. 
+
+<img src="/images/service-credentials.png" width="80%" height="80%">
+
+5. Click on **View credentials** and copy the API key. You can save the API key in a notepad. 
+
+<img src="/images/view-credentials.png" width="80%" height="80%">
+
+Let's go back to your Node-red application.
+If you closed the Node-RED tab you can always find it in the IBM Cloud resource list. 
+
+6. 
+
 
 ## Test the application
 
