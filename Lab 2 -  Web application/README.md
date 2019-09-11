@@ -130,7 +130,7 @@ After few seconds you will see the base64 node in your Node-RED palette.
 
 In this section we will build a simple flow to test our model sending cat and dog sounds using the microphone or via audio files. 
 
-1. Copy the content of the **dog-car-flow.json** file. Open the file URL. [Dog-car-flow code](https://raw.githubusercontent.com/sandra-calvo/smarthomes-SimulatedData/master/visualizationUI_simulatedData.json) 
+1. Copy the content of the **dog-car-flow.json** file. Open the file URL. [Dog-car-flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/dog-cat-flow.json?token=AI24OL2ZJJKOWJHL7F5WILK5PDKNG) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
@@ -153,6 +153,11 @@ Use the keyboard shortcuts to select all content and copy it.
 4. Deploy your application changes from the **Deploy** button on the top right side of the screen to save the changes.
 
 This flow reads data from audio files or audio coming through the microphone on your computer, then the audio files are sent to a OSP converter application that converts the audio file into a buffer readable to our machine learning model. The input buffer is sent to out Machine Learning model created in the previous lab and we see the results in the debug tab of the Node-RED window. 
+
+Your flow should look like this:
+
+<img src="/images/node-red-flow.png" width="90%" height="90%">
+
 
 ## Configure your application
 
@@ -185,9 +190,18 @@ Click on the name to access the service's details.
 Let's go back to your Node-red application.
 If you closed the Node-RED tab you can always find it in the IBM Cloud resource list. 
 
-6. 
+6. Double click the **Get token parameters** node and add your API key and click Done.
 
+<img src="/images/edit-apikey.png" width="80%" height="80%">
+
+7. Doble click on the **Model REST call** and add your machine learning endpoint. You saved this during lab 2. Click Done.
+
+<img src="/images/edit-rest-call.png" width="80%" height="80%">
+
+8. Deploy your application changes from the **Deploy** button on the top right side of the screen to save the changes. 
 
 ## Test the application
+
+
 
 ## Summary
