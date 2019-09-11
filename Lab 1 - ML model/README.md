@@ -36,6 +36,7 @@ We will create the machine learning model using **SPSS Modeler**. With SPSS Mode
 
 5. From the left side menu find the node **Data Assets** under the Import category. Drag and drop the node to the canvas.
 You can use the Data Asset import node to pull in data from remote data sources using connections. You can also pull in data from an Excel file (.xls) or a .csv file. 
+
 <img src="/images/data-assets.png" width="15%" height="15%">
 
 Double click on the data assets node and you will see a new menu open in the rights side of the screen. Click on the **Change data asset** button. 
@@ -58,7 +59,7 @@ Partition nodes are used to generate a partition field that splits the data into
 
 Double click on the Partition node and select a training partition of 80% and a testing partition of 20%. Then click Save. 
 
-<img src="/images/partition-menu.png" width="40%" height="40%">
+<img src="/images/partition-menu.png" width="30%" height="30%">
 
 7. From the node menu select **Type** under Field Operations and move it to the canvas after the partition node. Connect the partition and the type node. Type node specifies the type of the parameters in the data set. 
 
@@ -76,7 +77,7 @@ The Auto Classifier node estimates and compares models for either nominal (set) 
 
 Your flow should look like this:
 
-<img src="/images/modelerf-flow0.png" width="80%" height="80%">
+<img src="/images/modeler-flow0.png" width="80%" height="80%">
 
 9. Run the flow by clicking the play button on the top menu. This will take few minutes. 
 
@@ -84,7 +85,7 @@ Your flow should look like this:
 
 10. Running the flow created a new orange node. 
 
-<img src="/images/modeler-flow1.png" width="60%" height="60%">
+<img src="/images/modeler-flow1.png" width="80%" height="80%">
 
 11. Now delete the line connecting the **Type** node and the orange node. Double click on the line to delete it. 
 
