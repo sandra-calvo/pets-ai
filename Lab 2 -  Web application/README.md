@@ -202,6 +202,32 @@ If you closed the Node-RED tab you can always find it in the IBM Cloud resource 
 
 ## Test the application
 
+Let's try using a file!
 
+1. Click on the left side of the file node to open your local's machine menu. 
+
+<img src="/images/file-inject.png" width="20%" height="20%">
+
+2. Select an audio file from the audio folder you downloaded as a part of this repository. Click open. 
+
+<img src="/images/select-file.png" width="60%" height="60%">
+
+This will initiate the flow. Send the file to the OSP converter, get the buffer and send it to the machine learning model. 
+
+3. You will see the results in the debug tab on the right side of your screen. 
+
+<img src="/images/file-inject-results.png" width="70%" height="70%">
+
+Now test the microphone!
+
+1. Click on the left side of the microphone node to start recording. 
+
+<img src="/images/microphone.png" width="20%" height="20%">
+
+2. Make cat or dog noices. :cat: :dog:
+
+3. Click again on the microphone node to stop recording and send the audio to be processed. 
+
+4. Check the results in the debug tab on the left side of your screen. 
 
 ## Summary
