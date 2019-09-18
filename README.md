@@ -75,5 +75,4 @@ If you are interested in processing other files, you can check the python script
 
 ## Summary
 
-
- 
+Time to get started with the labs! 
