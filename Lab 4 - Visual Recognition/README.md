@@ -71,7 +71,7 @@ Your flow should look like this:
 
 2. Paste the API key you saved in the first part of this lab, when you created the visual recognition service and select the correct enpoint that matches the URL you copied with the API key. 
 
- <img src="/images/visual-recognition-service-credentials'.png" width="80%" height="80%"> 
+ <img src="/images/visual-recognition-service-credentials'.png" width="70%" height="70%"> 
  
  3. Click Done and then Deploy changes. 
 
