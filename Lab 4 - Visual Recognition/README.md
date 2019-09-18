@@ -1,12 +1,22 @@
-# LAB 4
+# LAB 4 - Add visual recognition to your application
 
-## Add visual recognition to your application
+In this lab you will set up the environment and all needed components for your machine learning model. 
+
+  - [Create a visual recognition service](#create-a-visual-recognition-service)
+  - [Get credentials](#get-credentials)
+  - [Import Visual Recognition flow](#import-visual-recognition-flow)
+  - [Configure Visual Recognition flow](#configure-visual-recognition-flow)
+  - [Test your application](#test-your-application)
+  - [Summary](#summary)
+  
+## Create a visual recognition service 
 
 The Watson  Visual Recognition service allows to analyze the contents of an image and produce a series of text classifiers with a confidence index. 
 
-1. Crete visual recognition service
 
-2. Get credentials
+
+## Get credentials 
+
 
 
 ## Import Visual Recognition flow
@@ -52,12 +62,20 @@ Your flow should look like this:
  3. Click Done and then Deploy changes. 
 
 
-### Test your application
+## Test your application
 
-To run the web page, point your browser to  `/http://xxxx.mybluemix.net/reco` and enter the URL of some image.
-The URL of the pre-selected images can be copied to clipboard and pasted into the text field.
+To run the web page, point your browser to:
+
+- London region: `http://yourAppName.eu-gb.mybluemix.net/reco` 
+- Frankfurt region: `http://yourAppName.eu-de.mybluemix.net/reco` 
+- US region: `http://yourAppName.mybluemix.net/reco` 
+- Sydney region: `http://yourAppName.au-syd.mybluemix.net/reco` 
+
+Enter the URL of an image. The URL of the pre-selected images can be copied to clipboard and pasted into the text field.
 
 The Watson Visual Recognition API will return an array with the recognized features, which will be formatted in a HTML table by the template:
+
+<img src="/images/visual_recognition_web.png" width="80%" height="80%">
 
 ## Summary
 
