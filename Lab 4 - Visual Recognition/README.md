@@ -67,11 +67,11 @@ Your flow should look like this:
 
 1. Double click on the Visual Recognition node.  
 
-<img src="/images/visual_recognition_node.png" width="10%" height="10%"> 
+<img src="/images/visual-recognition-node.png" width="10%" height="10%"> 
 
 2. Paste the API key you saved in the first part of this lab, when you created the visual recognition service. 
 
- <img src="/images/visual_recognition_service_credentials.png" width="80%" height="80%"> 
+ <img src="/images/visual-recognition-service-credentials.png" width="80%" height="80%"> 
  
  3. Click Done and then Deploy changes. 
 
