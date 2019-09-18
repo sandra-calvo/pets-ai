@@ -67,7 +67,7 @@ Your flow should look like this:
 
 1. Double click on the Visual Recognition node.  
 
-<img src="/images/visual-recognition-node.png" width="10%" height="10%"> 
+<img src="/images/visual-recognition-node.png" width="30%" height="30%"> 
 
 2. Paste the API key you saved in the first part of this lab, when you created the visual recognition service and select the correct enpoint that matches the URL you copied with the API key. 
 
