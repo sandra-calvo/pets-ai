@@ -3,7 +3,6 @@
 In this lab you will set up the environment and all needed components for your machine learning model. 
 
   - [Create a visual recognition service](#create-a-visual-recognition-service)
-  - [Get credentials](#get-credentials)
   - [Import Visual Recognition flow](#import-visual-recognition-flow)
   - [Configure Visual Recognition flow](#configure-visual-recognition-flow)
   - [Test your application](#test-your-application)
@@ -11,17 +10,30 @@ In this lab you will set up the environment and all needed components for your m
   
 ## Create a visual recognition service 
 
-The Watson  Visual Recognition service allows to analyze the contents of an image and produce a series of text classifiers with a confidence index. 
+To complete this lab you will need an instance of Watson Visual Recognition service that allows to analyze the contents of an image and produce a series of text classifiers with a confidence index.
 
+1. Log-in to you IBM Cloud account's https://cloud.ibm.com
 
+2. Click the _**Create Resource**_ button at the top right 
 
-## Get credentials 
+<img src="/images/create-resource.png" width="90%" height="90%">
 
+3. Find _**Visual Recognition**_ under AI and click on it. 
+
+<img src="/images/visual-recognition.png" width="40%" height="40%">
+
+4. You are taken to the service creation page. It will only let you create the service in **Dallas** region. You can change the service name suffix or keep the suggested name. Keep the Lite (Free) service plan and click the [Create] button.
+
+<img src="/images/visual-recognition-create.png" width="100%" height="100%">
+
+5. In the manage tab you will see the service credentials. Copy both the API key and the URL and save them in a notepad. You will need these later. 
+
+<img src="/images/visual-recognition-credentials.png" width="80%" height="80%">
 
 
 ## Import Visual Recognition flow
 
-Back in Node-RED. 
+:exclamation:Back to Node-RED.:exclamation: 
 
 1. Copy the content of the **visual_recognition_flow.json** file. Open the file URL. [visual_recognition_flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/dog-cat-flow.json?token=AI24OL2ZJJKOWJHL7F5WILK5PDKNG) 
 
@@ -53,11 +65,13 @@ Your flow should look like this:
 
 ## Configure Visual Recognition flow
 
-1. Double click on the Visual Recognition node.  <img src="/images/visual_recognition_node.png" width="10%" height="10%"> 
+1. Double click on the Visual Recognition node.  
+
+<img src="/images/visual_recognition_node.png" width="10%" height="10%"> 
 
 2. Paste the API key you saved in the first part of this lab, when you created the visual recognition service. 
 
- <img src="/images/visual_recognition_service_credentials.png" width="90%" height="90%"> 
+ <img src="/images/visual_recognition_service_credentials.png" width="80%" height="80%"> 
  
  3. Click Done and then Deploy changes. 
 
