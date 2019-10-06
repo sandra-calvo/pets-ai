@@ -182,7 +182,7 @@ function createNewTableRow(classification, score) {
 
 This code checks that the file that is uploaded by the user is an audio file, passes it to an API called performAudioReco, which you will create later in this lab, and returns the result by creating a new <div> element and inserting a table with the classification and score.
 
-<img src="/images/javasript_template.png" width="90%" height="90%">
+<img src="/images/javascript_template.png" width="90%" height="90%">
 
 5. For the first template node, make these changes. When you're finished, click Done.
 
@@ -191,7 +191,7 @@ This code checks that the file that is uploaded by the user is an audio file, pa
 - Set the property to msg.payload.css.
 - Delete the text in the Template field.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/css_template.png" width="90%" height="90%">
 
 The user interface used in this course is simple. Leave this file empty for now, but If you want to add your own styling to the interface, you can insert your CSS in this template node.
 
