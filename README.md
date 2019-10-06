@@ -76,3 +76,4 @@ If you are interested in processing other files, you can check the python script
 ## Summary
 
 Time to get started with the labs! 
+Go to [Lab 0 - Set up the environment](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%200%20-%20Set%20up%20the%20environment).
