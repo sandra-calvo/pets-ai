@@ -259,5 +259,8 @@ You should now be able to select an audio file from your file system and run a p
 
 ## Summary
 
-Congratulations! You created a web UI to interact with your machine learning model! Feel free too add some CSS to make it prettier. You can continue to Lab 4 and try the visual recognition service. 
+Congratulations! You created a web UI to interact with your machine learning model! Feel free too add some CSS to make it prettier. 
+
+You can continue to [Lab 4 - Visual Recognition](https://github.com/sandra-calvo/pets-ai/tree/master/Lab%204%20-%20Visual%20Recognition) and try the visual recognition service. 
+
 
