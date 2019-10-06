@@ -246,7 +246,7 @@ Wire the output node from this function node to the http out node. WHICH ONE?
 
 The complete flow looks like this:
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/complete_flow.png" width="90%" height="90%">
 
 ## Test your application
 
