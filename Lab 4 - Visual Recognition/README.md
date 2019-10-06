@@ -89,7 +89,9 @@ Enter the URL of an image. The URL of the pre-selected images can be copied to c
 
 The Watson Visual Recognition API will return an array with the recognized features, which will be formatted in a HTML table by the template:
 
-<img src="/images/visual_recognition_web.png" width="80%" height="80%">
+<img src="/images/visual_recognition_web.png" width="100%" height="100%">
+
+<img src="/images/visual_recognition_results.png" width="90%" height="90%">
 
 ## Summary
 
