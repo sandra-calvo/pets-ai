@@ -200,13 +200,13 @@ You should now have a small flow that looks like this:
 
 <img src="/images/ui_flow.png" width="90%" height="90%">
 
-7. Add another http input node, an http output node, and a function node and wire them together. Place the new nodes between the nodes that you just added and the microphone and base64 nodes.
+7. Add another **http input** node, an **http output** node, and a **function** node and wire them together. Place the new nodes between the nodes that you just added and the microphone and base64 nodes.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/connect_nodes1.png" width="90%" height="90%">
 
-8. Edit the http input node and change the method to POST, and in the URL field, enter /performAudioReco. Select the Accept File Uploads checkbox and then click Done.
+8. Edit the **http input** node and change the method to POST, and in the URL field, enter /performAudioReco. Select the Accept File Uploads checkbox and then click Done.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/http_input_edit1.png" width="90%" height="90%">
 
 9. Edit the function node and name it Locate Audio Buffer. Change the number of outputs to 2 at the bottom and paste in the following code. When you're finished, click Done.
 
@@ -222,21 +222,27 @@ You should now have a small flow that looks like this:
 }
 ```
 This code checks that a file has been passed in from the web page. If no file has been passed, it will throw an error.
-
 The first output node should go to the http node that you just added.
+
+<img src="/images/function_edit.png" width="90%" height="90%">
 
 10. Join the second output node to the base64 node.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/function_connections.png" width="90%" height="90%">
 
 This part of the flow passes the audio file that was uploaded in the interface through the flow that you created in Lab 2 to run the machine learning model.
 
-11. Wire the output node from the Just the results node to the http out node. You can also do this by using link nodes.
+11. Add a new **function** node and connect it with the output of the Model REST Call. Double-click on the node and add the following code:
 
-12. Deploy the application and switch back to your web page.
-You should now be able to select an audio file from your file system and run a prediction by clicking Process Audio. The audio file should play, and the prediction will be returned in a table.
+```javascript
+msg.result = msg.payload.values[0].splice(152);
+msg.resultColumns = msg.payload.fields.splice(152);
+return msg;
+```
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+Wire the output node from this function node to the http out node. WHICH ONE?
+
+12. Deploy the application.
 
 The complete flow looks like this:
 
@@ -246,6 +252,9 @@ The complete flow looks like this:
 
 Your Node-RED flow is ready. Test your application by going to your URL
 
+You should now be able to select an audio file from your file system and run a prediction by clicking Process Audio. The prediction will be returned in a table.
+
+<img src="/images/http_input_edit.png" width="90%" height="90%">
 
 
 ## Summary
