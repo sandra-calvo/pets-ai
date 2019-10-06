@@ -8,25 +8,25 @@ Now that your application is working on Node-RED and you tested your machine lea
 
 ## Modify and configure your Node-RED flow
 
-In this step we will modify the Node-RED flow created in lab 2. 
+In this step we will modify the Node-RED flow created in Lab 2. 
+Make sure you start adding these nodes above your previous flow. You can select all nodes and move them lower if you need space. 
 
 1. Add an http input node, an http output node, and three template nodes. Connect them so that they look like this:
 
 <img src="/images/connect_nodes.png" width="90%" height="90%">
 
-2. Double-click the **http input** node and add a suitable URL ending in the URL field. This creates the web page URL. Then click 'Done'.
+2. Double-click the **http input** node and add a suitable URL ending in the URL field. For example, **/dogs_cats**
+This creates the web page URL. Then click 'Done'.
 
-For example, adding a URL ending of /dogs_cats creates a full URL of https://< myNodeREDinstance>.au-syd.mybluemix.net/dogs_cats.
+Adding a URL ending of /dogs_cats creates a full URL of https://< myNodeREDinstance>.mybluemix.net/dogs_cats.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/http_inputedit.png" width="70%" height="70%">
 
 3. For the third template node, make these changes. When you're finished, click Done.
 
-Set the Name field to HTML.
-
-Set Syntax Highlight to HTML. The Syntax Highlight box helps to color code the tags and other items for ease of use.
-
-Paste the following code in the Template field:
+- Set the Name field to HTML.
+- Set Syntax Highlight to HTML. The Syntax Highlight box helps to color code the tags and other items for ease of use.
+- Paste the following code in the Template field:
 
 ```html
 <html>
@@ -69,15 +69,14 @@ The HTML page includes placeholders to the CSS and JavaScript code that you will
 
 The node settings should look like this:
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/html_template.png" width="90%" height="90%">
 
 4. For the second template node, make these changes. When you're finished, click Done.
 
-Set the name to JavaScript. Set the Syntax Highlight field to JavaScript.
-
-Set the property to msg.payload.script. This setting places the template contents on msg.payload.script that enables the HTML template reference to find and inject it at its placeholder. 
-
-Copy and paste the following code in the template field. 
+- Set the name to JavaScript. 
+- Set the Syntax Highlight field to JavaScript.
+- Set the property to msg.payload.script. This setting places the template contents on msg.payload.script that enables the HTML template reference to find and inject it at its placeholder. 
+- Copy and paste the following code in the template field. 
 
 ```javascript
 $(document).ready(function() {
@@ -183,35 +182,23 @@ function createNewTableRow(classification, score) {
 
 This code checks that the file that is uploaded by the user is an audio file, passes it to an API called performAudioReco, which you will create later in this lab, and returns the result by creating a new <div> element and inserting a table with the classification and score.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/javasript_template.png" width="90%" height="90%">
 
 5. For the first template node, make these changes. When you're finished, click Done.
 
 - Set the name to CSS.
-
 - Set Syntax Highlight field to CSS.
-
 - Set the property to msg.payload.css.
-
 - Delete the text in the Template field.
 
 <img src="/images/http_input_edit.png" width="90%" height="90%">
 
 The user interface used in this course is simple. Leave this file empty for now, but If you want to add your own styling to the interface, you can insert your CSS in this template node.
 
+6. Deploy the application to save the changes. 
 You should now have a small flow that looks like this:
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
-
-6. Deploy the application and navigate to the URL that you provided. The last part of the URL is what you specified as the URL in the http input node, for example:
-
-https://catsdogs.au-syd.mybluemix.net/dogs_cats
-
-The web page should look like this:
-
-<img src="/images/http_input_edit.png" width="90%" height="90%">
-
-At the moment, the Process Audio button won’t make a prediction because you haven’t created the HTTP request endpoint, which is highlighted in the JavaScript code description where the code calls performAudioReco.
+<img src="/images/ui_flow.png" width="90%" height="90%">
 
 7. Add another http input node, an http output node, and a function node and wire them together. Place the new nodes between the nodes that you just added and the microphone and base64 nodes.
 
