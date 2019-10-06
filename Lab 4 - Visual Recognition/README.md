@@ -35,7 +35,7 @@ To complete this lab you will need an instance of Watson Visual Recognition serv
 
 :exclamation:Back to Node-RED.:exclamation: 
 
-1. Copy the content of the **visual_recognition_flow.json** file. Open the file URL. [visual_recognition_flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/dog-cat-flow.json?token=AI24OL2ZJJKOWJHL7F5WILK5PDKNG) 
+1. Copy the content of the **visual_recognition_flow.json** file. Open the file URL. [visual_recognition_flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/visualRecognitionFlow.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
