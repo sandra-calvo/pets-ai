@@ -153,12 +153,18 @@ function processAudioOK(response) {
 function processAudioClassifiers(response) {
   var table = $('#cats-dogs-result').append(createNewTable());
   table.append(createNewTableHeaders());
+  table.append(createNewTableRow(response.results[0], response.results[1])) ;
+}
+/*
+function processAudioClassifiers(response) {
+  var table = $('#cats-dogs-result').append(createNewTable());
+  table.append(createNewTableHeaders());
   var scoreColumn = 0;
-  if ('dog' == response.results[3]) {
+  if ('dog' == response.results[0]) {
     scoreColumn = 1;
   }
-  table.append(createNewTableRow(response.results[3], response.results[1][scoreColumn])) ;
-}
+  table.append(createNewTableRow(response.results[0], response.results[1][scoreColumn])) ;
+}*/
 
 
 function createNewDiv(message) {
@@ -170,7 +176,7 @@ function createNewTable() {
 }
 
 function createNewTableHeaders() {
-  return $('<thead><tr><th>Name</th><th>Score</th></tr></thead>');
+  return $('<thead><tr><th>Animal</th><th>Score</th></tr></thead>');
 }
 
 function createNewTableRow(classification, score) {
@@ -189,7 +195,26 @@ This code checks that the file that is uploaded by the user is an audio file, pa
 - Set the name to CSS.
 - Set Syntax Highlight field to CSS.
 - Set the property to msg.payload.css.
-- Delete the text in the Template field.
+- Delete the text in the Template field and copy the following code
+
+```css
+.button {
+  background-color: #006699;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table, td, th {
+  font-size: 20px;
+}
+```
 
 <img src="/images/css_template.png" width="90%" height="90%">
 
@@ -254,7 +279,7 @@ Your Node-RED flow is ready. Test your application by going to your URL
 
 You should now be able to select an audio file from your file system and run a prediction by clicking Process Audio. The prediction will be returned in a table.
 
-<img src="/images/http_input_edit.png" width="90%" height="90%">
+<img src="/images/audioUI.png" width="90%" height="90%">
 
 
 ## Summary
