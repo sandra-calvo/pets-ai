@@ -155,17 +155,6 @@ function processAudioClassifiers(response) {
   table.append(createNewTableHeaders());
   table.append(createNewTableRow(response.results[0], response.results[1])) ;
 }
-/*
-function processAudioClassifiers(response) {
-  var table = $('#cats-dogs-result').append(createNewTable());
-  table.append(createNewTableHeaders());
-  var scoreColumn = 0;
-  if ('dog' == response.results[0]) {
-    scoreColumn = 1;
-  }
-  table.append(createNewTableRow(response.results[0], response.results[1][scoreColumn])) ;
-}*/
-
 
 function createNewDiv(message) {
   return $('<div></div>').text(message);
