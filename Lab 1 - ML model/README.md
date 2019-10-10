@@ -87,7 +87,7 @@ Your flow should look like this:
 
 <img src="/images/modeler-flow1.png" width="80%" height="80%">
 
-11. Now delete the line connecting the **Type** node and the orange node. Double click on the line to delete it. 
+11. Now delete the line connecting the **Type** node and the orange node. Right click on the line to delete it. 
 
 <img src="/images/delete-line.png" width="80%" height="80%">
 
