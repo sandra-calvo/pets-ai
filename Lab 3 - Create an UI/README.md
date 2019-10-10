@@ -42,18 +42,19 @@ Adding a URL ending of /dogs_cats creates a full URL of https://< myNodeREDinsta
         </div>
 
         <div>
-            <p>
+           <h3><p>
               <label for="audiofile">Select Audio File:</label>
               <input id="audiofile" type=file name=file accept="audio/*">
-              <button onclick="javascript:onAudioSendClick()">
+              <button onclick="javascript:onAudioSendClick()" class="button">
                 Process Audio
               </button>
-            </p>
+            </p></h3>
         </div>
 
         <div id="cats-dogs-result" class="cats-dogs-result">
             <p>Result shows here</p>
         </div>
+
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -155,6 +156,17 @@ function processAudioClassifiers(response) {
   table.append(createNewTableHeaders());
   table.append(createNewTableRow(response.results[0], response.results[1])) ;
 }
+/*
+function processAudioClassifiers(response) {
+  var table = $('#cats-dogs-result').append(createNewTable());
+  table.append(createNewTableHeaders());
+  var scoreColumn = 0;
+  if ('dog' == response.results[0]) {
+    scoreColumn = 1;
+  }
+  table.append(createNewTableRow(response.results[0], response.results[1][scoreColumn])) ;
+}*/
+
 
 function createNewDiv(message) {
   return $('<div></div>').text(message);
@@ -249,12 +261,13 @@ This part of the flow passes the audio file that was uploaded in the interface t
 11. Add a new **function** node and connect it with the output of the Model REST Call. Double-click on the node and add the following code:
 
 ```javascript
-msg.result = msg.payload.values[0].splice(152);
-msg.resultColumns = msg.payload.fields.splice(152);
+msg.payload.results = msg.payload.values[0].splice(151);
+msg.payload.resultColumns = msg.payload.fields.splice(151);
 return msg;
 ```
 
 Wire the output node from this function node to the http out node. WHICH ONE?
+
 
 12. Deploy the application.
 
