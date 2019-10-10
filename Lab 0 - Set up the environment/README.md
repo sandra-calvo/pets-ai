@@ -98,6 +98,10 @@ In this lab we will create a machine learning model and deploy it using Watson M
 
 2. You don't have any data sets in your project so click on **New data set** and select from your local machine the files **sound.csv** and **shaped_sound.csv**.
 
+You can download the data files from here: 
+
+https://ibm.box.com/v/data-mimmitkoodaa2019
+
 <img src="/images/add-data.png" width="100%" height="100%">
 
 3. After few seconds you will see both files listed as available assets under data assets.
