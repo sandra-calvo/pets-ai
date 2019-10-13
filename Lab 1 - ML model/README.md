@@ -86,7 +86,7 @@ Your flow should look like this:
 
 <img src="/images/play.png" width="60%" height="60%">
 
-10. Running the flow created a new orange node. 
+10. Running the flow created a new orange node. This will take 5-10 minutes.
 
 <img src="/images/modeler-flow1.png" width="80%" height="80%">
 
