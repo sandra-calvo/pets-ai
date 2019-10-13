@@ -65,9 +65,12 @@ Double click on the Partition node and select a training partition of 80% and a 
 
 <img src="/images/type-node.png" width="15%" height="15%">
 
+Make sure you have all the nodes connected.
+
 Double click on the Type node and click on **Read Values**, this will read the data set and detect the data type. Make sure you select COLUMN1 as the target. This is the value we want to predict. Then click Save. 
 
 <img src="/images/type-menu.png" width="80%" height="80%">
+
 
 8. From the node palette find a node called **Auto Classifier** located under Modeling. Connect the Type node to the Auto Classifier. 
 
