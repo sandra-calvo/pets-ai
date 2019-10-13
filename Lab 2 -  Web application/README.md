@@ -102,7 +102,7 @@ Now, before you try the flow, make sure the the debug tab is selected on the rig
 
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
-      - node-red-base64
+      - node-red-node-base64
       - node-red-contrib-browser-utils
 
 1. In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
