@@ -130,7 +130,7 @@ After few seconds you will see the base64 node in your Node-RED palette.
 
 In this section we will build a simple flow to test our model sending cat and dog sounds using the microphone or via audio files. 
 
-1. Copy the content of the **dog-car-flow.json** file. Open the file URL. [Dog-car-flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/dog-cat-flow.json?token=AI24OL2ZJJKOWJHL7F5WILK5PDKNG) 
+1. Copy the content of the **Lab2_flow.json** file. Open the file URL. [Lab 2 flow code](https://raw.githubusercontent.com/sandra-calvo/pets-ai/master/node-red-flows/Lab2_flow.json) 
 
 Use the keyboard shortcuts to select all content and copy it.
     
